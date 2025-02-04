@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-container {
+    width: 1180px;
+    margin: 0 auto;
+}
+.my-container {
+    width: 1400px;
+    margin: 0 auto;
+}
+body {
+    font-family: "Montserrat", serif;
+    background-color: #131416;
+}
+.custom-pagination {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 100;
+}
+.custom-pagination .swiper-pagination-bullet {
+    width: 3px;
+    height: 21px;
+    background-color: #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.custom-pagination .swiper-pagination-bullet-active {
+    background-color: #EF4234;
+    height: 33px;
+}
+.text-sm {
+  font-size: 0.75rem;
+}
